@@ -5,7 +5,7 @@ import Navbar from "./components/Navbar"
 
 function App() {
   return (
-    <div className="bg-[#fff] h-full w-full">
+    <div className="bg-[#fff] h-full w-full max-w-[1440px] mx-auto">
     <Navbar/>
     <HeroSection/>
     <Footer/>
