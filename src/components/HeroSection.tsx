@@ -32,7 +32,7 @@ function HeroSection() {
   };
   return (
     <div>
-        <div className='hero flex flex-col justify-center md:pt-35 xl:pt-27 md:px-20 items-center bg-[#F5F3ED] h-full md:h-full xl:h-screen w-full text-center'>
+        <div className='hero flex flex-col justify-center md:pt-35 xl:pt-40 md:px-20 items-center bg-[#F5F3ED] h-full md:h-full xl:h-full w-full text-center'>
             <motion.h1
             variants={container}
             initial="hidden"

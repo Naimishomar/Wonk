@@ -34,7 +34,7 @@ export default function AnimatedCards() {
   const [hoveredIndex, setHoveredIndex] = useState<number | null>(null);
 
   return (
-    <div className="grid grid-cols-3 bg-[#F5F3ED] md:grid-cols-5 justify-center items-center px-15 pt-10 pb-15">
+    <div className="grid grid-cols-3 bg-[#F5F3ED] md:grid-cols-5 justify-center items-center px-15 pt-20 pb-15">
       {imageObjects.map((image, index) => {
         const isHovered = index === hoveredIndex;
         return (
