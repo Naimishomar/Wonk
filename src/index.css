@@ -1,1 +1,9 @@
 @import "tailwindcss";
+
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Grid+Single:wght@100..900&family=Bitcount:wght@100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Luckiest+Guy&family=Noto+Sans+Duployan:wght@400;700&display=swap');
+
+.hero{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
